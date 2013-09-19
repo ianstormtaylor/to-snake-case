@@ -1,4 +1,3 @@
-
 var toSpace = require('to-space-case');
 
 
@@ -10,7 +9,7 @@ module.exports = toSnakeCase;
 
 
 /**
- * Convert a `string` to camel case.
+ * Convert a `string` to snake case.
  *
  * @param {String} string
  * @return {String}
