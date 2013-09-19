@@ -18,5 +18,5 @@ module.exports = toSnakeCase;
 
 
 function toSnakeCase (string) {
-  return toSpace(string).replace(' ', '_');
+  return toSpace(string).replace(/\s/g, '_');
 }

@@ -23,4 +23,8 @@ it('weird[case', function () {
   assert('weird_case' == snake('weird[case'));
 });
 
+it('complexCamelCase', function () {
+  assert('complex_camel_case' == snake('complexCamelCase'));
+});
+
 });
