@@ -3,28 +3,32 @@ describe('to-snake-case', function () {
 var assert = require('assert');
 var snake = require('to-snake-case');
 
-it('space case', function () {
-  assert('space_case' == snake('space case'));
+it('shouldnt touch snake case', function () {
+  assert('a_snake_case_string' == snake('a_snake_case_string'));
 });
 
-it('camelCase', function () {
-  assert('camel_case' == snake('camelCase'));
+it('should convert camel case', function () {
+  assert('a_camel_case_string' == snake('aCamelCaseString'));
 });
 
-it('snake_case', function () {
-  assert('snake_case' == snake('snake_case'));
+it('should convert space case', function () {
+  assert('a_space_case_string' == snake('a space case string'));
 });
 
-it('dot.case', function () {
-  assert('dot_case' == snake('dot.case'));
+it('should convert dot case', function () {
+  assert('a_dot_case_string' == snake('a.dot.case.string'));
 });
 
-it('weird[case', function () {
-  assert('weird_case' == snake('weird[case'));
+it('should convert title case', function () {
+  assert('a_title_case_of_string' == snake('A Title: Case of String'));
 });
 
-it('complexCamelCase', function () {
-  assert('complex_camel_case' == snake('complexCamelCase'));
+it('should convert sentence case', function () {
+  assert('a_sentence_case_string' == snake('A sentence case string.'));
+});
+
+it('should convert constant case', function () {
+  assert('a_constant_case_string' == snake('A_CONSTANT_CASE_STRING'));
 });
 
 });

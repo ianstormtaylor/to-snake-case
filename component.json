@@ -6,7 +6,7 @@
   "description": "Convert a non-snake-case string to a snake-case string.",
   "keywords": ["snake", "case", "snakecase", "string"],
   "dependencies": {
-    "ianstormtaylor/to-space-case": "0.0.1"
+    "ianstormtaylor/to-space-case": "0.1.0"
   },
   "development": {
     "component/assert": "*"
