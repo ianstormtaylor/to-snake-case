@@ -1,6 +1,6 @@
 # to-snake-case
 
-  Convert a non-snake-case string to a snake-case string.
+  Convert a string to a snake case.
 
 ## Installation
 
