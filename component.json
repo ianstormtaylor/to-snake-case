@@ -3,7 +3,7 @@
   "repo": "ianstormtaylor/to-snake-case",
   "license": "MIT",
   "version": "0.1.1",
-  "description": "Convert a non-snake-case string to a snake-case string.",
+  "description": "Convert a string to a snake case.",
   "keywords": ["snake", "case", "snakecase", "string"],
   "dependencies": {
     "ianstormtaylor/to-space-case": "0.1.1"
