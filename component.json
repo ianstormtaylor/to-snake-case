@@ -2,11 +2,11 @@
   "name": "to-snake-case",
   "repo": "ianstormtaylor/to-snake-case",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Convert a string to a snake case.",
   "keywords": ["snake", "case", "snakecase", "string"],
   "dependencies": {
-    "ianstormtaylor/to-space-case": "0.1.1"
+    "ianstormtaylor/to-space-case": "0.1.2"
   },
   "development": {
     "component/assert": "*"

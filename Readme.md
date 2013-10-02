@@ -5,6 +5,7 @@
 ## Installation
 
     $ component install ianstormtaylor/to-snake-case
+    $ npm install to-snake-case
 
 ## Example
 
