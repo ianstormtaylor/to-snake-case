@@ -14,12 +14,12 @@ $ npm install to-snake-case
 ## Example
 
 ```js
-var snake = require('to-snake-case');
+var toSnakeCase = require('to-snake-case')
 
-snake('camelCase');  // "camel_case"
-snake('space case'); // "snake_case"
-snake('dot.case');   // "dot_case"
-snake('weird[case'); // "weird_case"
+toSnakeCase('camelCase')   // "camel_case"
+toSnakeCase('space case')  // "snake_case"
+toSnakeCase('dot.case')    // "dot_case"
+toSnakeCase('weird[case')  // "weird_case"
 ```
 
 
