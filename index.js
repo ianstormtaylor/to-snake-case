@@ -1,12 +1,11 @@
-var toSpace = require('to-space-case');
 
+var toSpace = require('to-space-case')
 
 /**
- * Expose `toSnakeCase`.
+ * Export.
  */
 
-module.exports = toSnakeCase;
-
+module.exports = toSnakeCase
 
 /**
  * Convert a `string` to snake case.
@@ -15,7 +14,6 @@ module.exports = toSnakeCase;
  * @return {String}
  */
 
-
-function toSnakeCase (string) {
-  return toSpace(string).replace(/\s/g, '_');
+function toSnakeCase(string) {
+  return toSpace(string).replace(/\s/g, '_')
 }
