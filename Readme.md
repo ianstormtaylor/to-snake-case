@@ -17,7 +17,7 @@ $ npm install to-snake-case
 var toSnakeCase = require('to-snake-case')
 
 toSnakeCase('camelCase')   // "camel_case"
-toSnakeCase('space case')  // "snake_case"
+toSnakeCase('space case')  // "space_case"
 toSnakeCase('dot.case')    // "dot_case"
 toSnakeCase('weird[case')  // "weird_case"
 ```
